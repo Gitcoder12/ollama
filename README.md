@@ -355,3 +355,23 @@ console.log(response.message.content);
 - [Gentoo](https://github.com/gentoo/gentoo/tree/master/sci-ml/ollama)
 - [Flox](https://flox.dev/blog/ollama-part-one)
 - [Guix channel](https://codeberg.org/tusharhero/ollama-guix)
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/portfolio-notes-2026-11-13` | 2 ahead / 1 behind | Fork-aware portfolio notes, activity log, skills notes, company-fit notes, contributor notes and feature upgrade plan |
+| `docs/project-status-2026-11-16-ollama` | 1 ahead / 0 behind | Project status snapshot: `PROJECT_STATUS.md`; branch is ahead of current `main` |
+| `fix/seed-int64-precision` | 2 / 1 | Seed integer precision changes in API types and server routes |
+
+### Open pull requests observed during this audit
+
+- [PR #2 — project status snapshot](https://github.com/Gitcoder12/ollama/pull/2)
+- [PR #1 — attribution-safe portfolio notes](https://github.com/Gitcoder12/ollama/pull/1)
+
+**Fork note:** This is a fork of an upstream project. Preserve upstream attribution and distinguish local changes from upstream behavior. The seed precision change should be checked with boundary-value tests on the exact PR head.
