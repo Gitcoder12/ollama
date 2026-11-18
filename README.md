@@ -355,3 +355,10 @@ console.log(response.message.content);
 - [Gentoo](https://github.com/gentoo/gentoo/tree/master/sci-ml/ollama)
 - [Flox](https://flox.dev/blog/ollama-part-one)
 - [Guix channel](https://codeberg.org/tusharhero/ollama-guix)
+
+---
+
+## Examples Used
+- Running a local language model for private question answering
+- Connecting a local model to a coding assistant
+- Calling a locally hosted model through the REST API
