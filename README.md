@@ -362,3 +362,21 @@ console.log(response.message.content);
 - Running a local language model for private question answering
 - Connecting a local model to a coding assistant
 - Calling a locally hosted model through the REST API
+
+
+---
+
+## Upstream Relationship and Comparison
+
+This repository is a fork of [ollama/ollama](https://github.com/ollama/ollama), the canonical Ollama project for running and serving open models locally and through its supported integrations. This fork is not an independently developed model runtime.
+
+### Current fork status (checked 2026-11-19)
+- Fork-only commits: **2**, both documentation-only (audit/provenance guidance and README examples).
+- Upstream commits not present in this fork: **94**.
+- No independent model-runtime, API, hardware-support or inference capability is established by the inspected fork-only commits.
+
+### What this fork adds
+The current local contribution is documentation and repository-maintenance guidance. The upstream project remains the source of truth for runtime features and compatibility.
+
+### Recommendation
+Use upstream Ollama for runtime functionality. Keep this fork only for a clearly scoped experiment or proposed contribution, preserve attribution and licence terms, and document future local changes separately from upstream code.
